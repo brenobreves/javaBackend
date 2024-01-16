@@ -5,6 +5,7 @@ public class App {
         Scanner myInput = new Scanner( System.in );
         System.out.print( "Enter the number of fibs: " );
         int amount = myInput.nextInt();
+        myInput.close();
         int fib1 = 1;
         int fib2 = 1;
         for( int i = 0 ; i < amount ; i++){

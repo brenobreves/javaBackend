@@ -5,6 +5,7 @@ public class App {
         Scanner myInput = new Scanner( System.in );
         System.out.print( "Enter the number: " );
         int num = myInput.nextInt();
+        myInput.close();
         String signal = "";
         String tipo = "";
         if (num % 2 == 0){
